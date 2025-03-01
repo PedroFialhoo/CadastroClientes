@@ -279,6 +279,7 @@
             this.campoNome.Name = "campoNome";
             this.campoNome.Size = new System.Drawing.Size(384, 26);
             this.campoNome.TabIndex = 0;
+            this.campoNome.TextChanged += new System.EventHandler(this.campoNome_TextChanged);
             // 
             // campoRG
             // 
@@ -330,6 +331,7 @@
             this.opM.TabStop = true;
             this.opM.Text = "Masculino";
             this.opM.UseVisualStyleBackColor = false;
+            this.opM.CheckedChanged += new System.EventHandler(this.opM_CheckedChanged);
             // 
             // opF
             // 
@@ -343,6 +345,7 @@
             this.opF.TabIndex = 2;
             this.opF.Text = "Feminino";
             this.opF.UseVisualStyleBackColor = false;
+            this.opF.CheckedChanged += new System.EventHandler(this.opF_CheckedChanged);
             // 
             // opOutros
             // 
@@ -379,10 +382,11 @@
             this.campoDocumento.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.campoDocumento.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.campoDocumento.Location = new System.Drawing.Point(209, 137);
-            this.campoDocumento.Mask = "000,000,000-00";
             this.campoDocumento.Name = "campoDocumento";
-            this.campoDocumento.Size = new System.Drawing.Size(146, 26);
+            this.campoDocumento.Size = new System.Drawing.Size(157, 26);
             this.campoDocumento.TabIndex = 2;
+            this.campoDocumento.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.campoDocumento_MaskInputRejected);
+            this.campoDocumento.Validating += new System.ComponentModel.CancelEventHandler(this.campoDocumento_Validating);
             // 
             // campoNasc
             // 
@@ -393,6 +397,7 @@
             this.campoNasc.Name = "campoNasc";
             this.campoNasc.Size = new System.Drawing.Size(92, 26);
             this.campoNasc.TabIndex = 7;
+            this.campoNasc.Validating += new System.ComponentModel.CancelEventHandler(this.campoNasc_Validating);
             // 
             // campoCEP
             // 
@@ -403,6 +408,8 @@
             this.campoCEP.Name = "campoCEP";
             this.campoCEP.Size = new System.Drawing.Size(93, 26);
             this.campoCEP.TabIndex = 8;
+            this.campoCEP.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
+            this.campoCEP.Validating += new System.ComponentModel.CancelEventHandler(this.campoCEP_Validating);
             // 
             // campoCelular
             // 
@@ -427,6 +434,7 @@
             this.opCPF.TabStop = true;
             this.opCPF.Text = "CPF";
             this.opCPF.UseVisualStyleBackColor = false;
+            this.opCPF.CheckedChanged += new System.EventHandler(this.opCPF_CheckedChanged);
             // 
             // opCNPJ
             // 
@@ -475,62 +483,38 @@
             this.campoEstado.IntegralHeight = false;
             this.campoEstado.Items.AddRange(new object[] {
             "Acre (AC)",
-            "",
             "Alagoas (AL)",
-            "",
             "Amapá (AP)",
-            "",
             "Amazonas (AM)",
-            "",
             "Bahia (BA)",
-            "",
             "Ceará (CE)",
-            "",
             "Distrito Federal (DF)",
-            "",
             "Espírito Santo (ES)",
-            "",
             "Goiás (GO)",
-            "",
             "Maranhão (MA)",
-            "",
             "Mato Grosso (MT)",
-            "",
             "Mato Grosso do Sul (MS)",
-            "",
             "Minas Gerais (MG)",
-            "",
             "Pará (PA)",
-            "",
             "Paraíba (PB)",
-            "",
             "Paraná (PR)",
-            "",
             "Pernambuco (PE)",
-            "",
             "Piauí (PI)",
-            "",
             "Rio de Janeiro (RJ)",
-            "",
             "Rio Grande do Norte (RN)",
-            "",
             "Rio Grande do Sul (RS)",
-            "",
             "Rondônia (RO)",
-            "",
             "Roraima (RR)",
-            "",
             "Santa Catarina (SC)",
-            "",
             "São Paulo (SP)",
-            "",
             "Sergipe (SE)",
-            "",
             "Tocantins (TO)"});
             this.campoEstado.Location = new System.Drawing.Point(22, 430);
             this.campoEstado.Name = "campoEstado";
             this.campoEstado.Size = new System.Drawing.Size(208, 28);
             this.campoEstado.TabIndex = 13;
+            this.campoEstado.SelectedIndexChanged += new System.EventHandler(this.campoEstado_SelectedIndexChanged);
+            this.campoEstado.Validating += new System.ComponentModel.CancelEventHandler(this.campoEstado_Validating);
             // 
             // cbEstadoCivil
             // 
@@ -549,6 +533,7 @@
             this.cbEstadoCivil.Size = new System.Drawing.Size(150, 28);
             this.cbEstadoCivil.TabIndex = 6;
             this.cbEstadoCivil.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            this.cbEstadoCivil.Validating += new System.ComponentModel.CancelEventHandler(this.cbEstadoCivil_Validating);
             // 
             // campoEndereco
             // 
@@ -655,6 +640,7 @@
             this.button3.Text = "Fechar";
             this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -671,6 +657,7 @@
             this.button4.Text = "Novo";
             this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
