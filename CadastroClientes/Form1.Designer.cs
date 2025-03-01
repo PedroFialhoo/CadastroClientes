@@ -44,29 +44,29 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox4 = new System.Windows.Forms.MaskedTextBox();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.campoCodigo = new System.Windows.Forms.TextBox();
+            this.campoNome = new System.Windows.Forms.TextBox();
+            this.campoRG = new System.Windows.Forms.TextBox();
+            this.campoEmail = new System.Windows.Forms.TextBox();
+            this.campoObs = new System.Windows.Forms.TextBox();
+            this.campoNumero = new System.Windows.Forms.TextBox();
+            this.opM = new System.Windows.Forms.RadioButton();
+            this.opF = new System.Windows.Forms.RadioButton();
+            this.opOutros = new System.Windows.Forms.RadioButton();
+            this.ckSituacao = new System.Windows.Forms.CheckBox();
+            this.campoDocumento = new System.Windows.Forms.MaskedTextBox();
+            this.campoNasc = new System.Windows.Forms.MaskedTextBox();
+            this.campoCEP = new System.Windows.Forms.MaskedTextBox();
+            this.campoCelular = new System.Windows.Forms.MaskedTextBox();
+            this.opCPF = new System.Windows.Forms.RadioButton();
+            this.opCNPJ = new System.Windows.Forms.RadioButton();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.campoEstado = new System.Windows.Forms.ComboBox();
+            this.cbEstadoCivil = new System.Windows.Forms.ComboBox();
+            this.campoEndereco = new System.Windows.Forms.ComboBox();
+            this.campoBairro = new System.Windows.Forms.ComboBox();
+            this.campoCidade = new System.Windows.Forms.ComboBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -261,191 +261,191 @@
             this.label16.Text = "Situação Cadastral-";
             this.label16.Click += new System.EventHandler(this.label13_Click);
             // 
-            // textBox1
+            // campoCodigo
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.textBox1.Location = new System.Drawing.Point(208, 68);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 26);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.TabStop = false;
+            this.campoCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.campoCodigo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.campoCodigo.Location = new System.Drawing.Point(208, 68);
+            this.campoCodigo.Name = "campoCodigo";
+            this.campoCodigo.Size = new System.Drawing.Size(100, 26);
+            this.campoCodigo.TabIndex = 1;
+            this.campoCodigo.TabStop = false;
             // 
-            // textBox2
+            // campoNome
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.textBox2.Location = new System.Drawing.Point(338, 68);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(384, 26);
-            this.textBox2.TabIndex = 0;
+            this.campoNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.campoNome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.campoNome.Location = new System.Drawing.Point(338, 68);
+            this.campoNome.Name = "campoNome";
+            this.campoNome.Size = new System.Drawing.Size(384, 26);
+            this.campoNome.TabIndex = 0;
             // 
-            // textBox5
+            // campoRG
             // 
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.textBox5.Location = new System.Drawing.Point(208, 207);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(147, 26);
-            this.textBox5.TabIndex = 5;
+            this.campoRG.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.campoRG.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.campoRG.Location = new System.Drawing.Point(208, 207);
+            this.campoRG.Name = "campoRG";
+            this.campoRG.Size = new System.Drawing.Size(147, 26);
+            this.campoRG.TabIndex = 5;
             // 
-            // textBox12
+            // campoEmail
             // 
-            this.textBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.textBox12.Location = new System.Drawing.Point(446, 428);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(276, 26);
-            this.textBox12.TabIndex = 15;
+            this.campoEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.campoEmail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.campoEmail.Location = new System.Drawing.Point(446, 428);
+            this.campoEmail.Name = "campoEmail";
+            this.campoEmail.Size = new System.Drawing.Size(276, 26);
+            this.campoEmail.TabIndex = 15;
             // 
-            // textBox13
+            // campoObs
             // 
-            this.textBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.textBox13.Location = new System.Drawing.Point(22, 503);
-            this.textBox13.Multiline = true;
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(700, 191);
-            this.textBox13.TabIndex = 16;
+            this.campoObs.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.campoObs.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.campoObs.Location = new System.Drawing.Point(22, 503);
+            this.campoObs.Multiline = true;
+            this.campoObs.Name = "campoObs";
+            this.campoObs.Size = new System.Drawing.Size(700, 191);
+            this.campoObs.TabIndex = 16;
             // 
-            // textBox14
+            // campoNumero
             // 
-            this.textBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.textBox14.Location = new System.Drawing.Point(630, 291);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(92, 26);
-            this.textBox14.TabIndex = 10;
+            this.campoNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.campoNumero.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.campoNumero.Location = new System.Drawing.Point(630, 291);
+            this.campoNumero.Name = "campoNumero";
+            this.campoNumero.Size = new System.Drawing.Size(92, 26);
+            this.campoNumero.TabIndex = 10;
             // 
-            // radioButton1
+            // opM
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.BackColor = System.Drawing.Color.Transparent;
-            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.radioButton1.Location = new System.Drawing.Point(391, 137);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(98, 24);
-            this.radioButton1.TabIndex = 4;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Masculino";
-            this.radioButton1.UseVisualStyleBackColor = false;
+            this.opM.AutoSize = true;
+            this.opM.BackColor = System.Drawing.Color.Transparent;
+            this.opM.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.opM.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.opM.Location = new System.Drawing.Point(391, 137);
+            this.opM.Name = "opM";
+            this.opM.Size = new System.Drawing.Size(98, 24);
+            this.opM.TabIndex = 4;
+            this.opM.TabStop = true;
+            this.opM.Text = "Masculino";
+            this.opM.UseVisualStyleBackColor = false;
             // 
-            // radioButton2
+            // opF
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.BackColor = System.Drawing.Color.Transparent;
-            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.radioButton2.Location = new System.Drawing.Point(513, 137);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(92, 24);
-            this.radioButton2.TabIndex = 2;
-            this.radioButton2.Text = "Feminino";
-            this.radioButton2.UseVisualStyleBackColor = false;
+            this.opF.AutoSize = true;
+            this.opF.BackColor = System.Drawing.Color.Transparent;
+            this.opF.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.opF.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.opF.Location = new System.Drawing.Point(513, 137);
+            this.opF.Name = "opF";
+            this.opF.Size = new System.Drawing.Size(92, 24);
+            this.opF.TabIndex = 2;
+            this.opF.Text = "Feminino";
+            this.opF.UseVisualStyleBackColor = false;
             // 
-            // radioButton3
+            // opOutros
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.BackColor = System.Drawing.Color.Transparent;
-            this.radioButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.radioButton3.Location = new System.Drawing.Point(647, 137);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(75, 24);
-            this.radioButton3.TabIndex = 2;
-            this.radioButton3.Text = "Outros";
-            this.radioButton3.UseVisualStyleBackColor = false;
-            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
+            this.opOutros.AutoSize = true;
+            this.opOutros.BackColor = System.Drawing.Color.Transparent;
+            this.opOutros.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.opOutros.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.opOutros.Location = new System.Drawing.Point(647, 137);
+            this.opOutros.Name = "opOutros";
+            this.opOutros.Size = new System.Drawing.Size(75, 24);
+            this.opOutros.TabIndex = 2;
+            this.opOutros.Text = "Outros";
+            this.opOutros.UseVisualStyleBackColor = false;
+            this.opOutros.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
-            // checkBox1
+            // ckSituacao
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.BackColor = System.Drawing.Color.Transparent;
-            this.checkBox1.Checked = true;
-            this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.ForeColor = System.Drawing.Color.Navy;
-            this.checkBox1.Location = new System.Drawing.Point(412, 735);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(63, 24);
-            this.checkBox1.TabIndex = 3;
-            this.checkBox1.TabStop = false;
-            this.checkBox1.Text = "Ativo";
-            this.checkBox1.UseVisualStyleBackColor = false;
+            this.ckSituacao.AutoSize = true;
+            this.ckSituacao.BackColor = System.Drawing.Color.Transparent;
+            this.ckSituacao.Checked = true;
+            this.ckSituacao.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.ckSituacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ckSituacao.ForeColor = System.Drawing.Color.Navy;
+            this.ckSituacao.Location = new System.Drawing.Point(412, 735);
+            this.ckSituacao.Name = "ckSituacao";
+            this.ckSituacao.Size = new System.Drawing.Size(63, 24);
+            this.ckSituacao.TabIndex = 3;
+            this.ckSituacao.TabStop = false;
+            this.ckSituacao.Text = "Ativo";
+            this.ckSituacao.UseVisualStyleBackColor = false;
             // 
-            // maskedTextBox1
+            // campoDocumento
             // 
-            this.maskedTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.maskedTextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.maskedTextBox1.Location = new System.Drawing.Point(209, 137);
-            this.maskedTextBox1.Mask = "000,000,000-00";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(146, 26);
-            this.maskedTextBox1.TabIndex = 2;
+            this.campoDocumento.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.campoDocumento.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.campoDocumento.Location = new System.Drawing.Point(209, 137);
+            this.campoDocumento.Mask = "000,000,000-00";
+            this.campoDocumento.Name = "campoDocumento";
+            this.campoDocumento.Size = new System.Drawing.Size(146, 26);
+            this.campoDocumento.TabIndex = 2;
             // 
-            // maskedTextBox2
+            // campoNasc
             // 
-            this.maskedTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.maskedTextBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.maskedTextBox2.Location = new System.Drawing.Point(630, 207);
-            this.maskedTextBox2.Mask = "00/00/0000";
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(92, 26);
-            this.maskedTextBox2.TabIndex = 7;
+            this.campoNasc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.campoNasc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.campoNasc.Location = new System.Drawing.Point(630, 207);
+            this.campoNasc.Mask = "00/00/0000";
+            this.campoNasc.Name = "campoNasc";
+            this.campoNasc.Size = new System.Drawing.Size(92, 26);
+            this.campoNasc.TabIndex = 7;
             // 
-            // maskedTextBox3
+            // campoCEP
             // 
-            this.maskedTextBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.maskedTextBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.maskedTextBox3.Location = new System.Drawing.Point(22, 291);
-            this.maskedTextBox3.Mask = "00000-000";
-            this.maskedTextBox3.Name = "maskedTextBox3";
-            this.maskedTextBox3.Size = new System.Drawing.Size(93, 26);
-            this.maskedTextBox3.TabIndex = 8;
+            this.campoCEP.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.campoCEP.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.campoCEP.Location = new System.Drawing.Point(22, 291);
+            this.campoCEP.Mask = "00000-000";
+            this.campoCEP.Name = "campoCEP";
+            this.campoCEP.Size = new System.Drawing.Size(93, 26);
+            this.campoCEP.TabIndex = 8;
             // 
-            // maskedTextBox4
+            // campoCelular
             // 
-            this.maskedTextBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.maskedTextBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.maskedTextBox4.Location = new System.Drawing.Point(253, 428);
-            this.maskedTextBox4.Mask = "(00) 00000-0000";
-            this.maskedTextBox4.Name = "maskedTextBox4";
-            this.maskedTextBox4.Size = new System.Drawing.Size(142, 26);
-            this.maskedTextBox4.TabIndex = 14;
+            this.campoCelular.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.campoCelular.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.campoCelular.Location = new System.Drawing.Point(253, 428);
+            this.campoCelular.Mask = "(00) 00000-0000";
+            this.campoCelular.Name = "campoCelular";
+            this.campoCelular.Size = new System.Drawing.Size(142, 26);
+            this.campoCelular.TabIndex = 14;
             // 
-            // radioButton4
+            // opCPF
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.BackColor = System.Drawing.Color.Transparent;
-            this.radioButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton4.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.radioButton4.Location = new System.Drawing.Point(6, 3);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(58, 24);
-            this.radioButton4.TabIndex = 0;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "CPF";
-            this.radioButton4.UseVisualStyleBackColor = false;
+            this.opCPF.AutoSize = true;
+            this.opCPF.BackColor = System.Drawing.Color.Transparent;
+            this.opCPF.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.opCPF.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.opCPF.Location = new System.Drawing.Point(6, 3);
+            this.opCPF.Name = "opCPF";
+            this.opCPF.Size = new System.Drawing.Size(58, 24);
+            this.opCPF.TabIndex = 0;
+            this.opCPF.TabStop = true;
+            this.opCPF.Text = "CPF";
+            this.opCPF.UseVisualStyleBackColor = false;
             // 
-            // radioButton5
+            // opCNPJ
             // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.BackColor = System.Drawing.Color.Transparent;
-            this.radioButton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton5.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.radioButton5.Location = new System.Drawing.Point(78, 3);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(67, 24);
-            this.radioButton5.TabIndex = 0;
-            this.radioButton5.Text = "CNPJ";
-            this.radioButton5.UseVisualStyleBackColor = false;
+            this.opCNPJ.AutoSize = true;
+            this.opCNPJ.BackColor = System.Drawing.Color.Transparent;
+            this.opCNPJ.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.opCNPJ.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.opCNPJ.Location = new System.Drawing.Point(78, 3);
+            this.opCNPJ.Name = "opCNPJ";
+            this.opCNPJ.Size = new System.Drawing.Size(67, 24);
+            this.opCNPJ.TabIndex = 0;
+            this.opCNPJ.Text = "CNPJ";
+            this.opCNPJ.UseVisualStyleBackColor = false;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.Controls.Add(this.radioButton5);
-            this.panel1.Controls.Add(this.radioButton4);
+            this.panel1.Controls.Add(this.opCNPJ);
+            this.panel1.Controls.Add(this.opCPF);
             this.panel1.Location = new System.Drawing.Point(203, 109);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(152, 35);
@@ -464,16 +464,16 @@
             this.label5.Text = "Celular";
             this.label5.Click += new System.EventHandler(this.label13_Click);
             // 
-            // comboBox1
+            // campoEstado
             // 
-            this.comboBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.comboBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox1.DropDownHeight = 230;
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.comboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.IntegralHeight = false;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.campoEstado.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.campoEstado.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.campoEstado.DropDownHeight = 230;
+            this.campoEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.campoEstado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.campoEstado.FormattingEnabled = true;
+            this.campoEstado.IntegralHeight = false;
+            this.campoEstado.Items.AddRange(new object[] {
             "Acre (AC)",
             "",
             "Alagoas (AL)",
@@ -527,75 +527,76 @@
             "Sergipe (SE)",
             "",
             "Tocantins (TO)"});
-            this.comboBox1.Location = new System.Drawing.Point(22, 430);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(208, 28);
-            this.comboBox1.TabIndex = 13;
+            this.campoEstado.Location = new System.Drawing.Point(22, 430);
+            this.campoEstado.Name = "campoEstado";
+            this.campoEstado.Size = new System.Drawing.Size(208, 28);
+            this.campoEstado.TabIndex = 13;
             // 
-            // comboBox2
+            // cbEstadoCivil
             // 
-            this.comboBox2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.comboBox2.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.comboBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.cbEstadoCivil.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cbEstadoCivil.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cbEstadoCivil.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.cbEstadoCivil.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.cbEstadoCivil.FormattingEnabled = true;
+            this.cbEstadoCivil.Items.AddRange(new object[] {
             "Viúvo(a)",
             "Casado(a)",
             "Divorciado(a)",
             "Solteiro(a)"});
-            this.comboBox2.Location = new System.Drawing.Point(389, 205);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(150, 28);
-            this.comboBox2.TabIndex = 6;
+            this.cbEstadoCivil.Location = new System.Drawing.Point(389, 205);
+            this.cbEstadoCivil.Name = "cbEstadoCivil";
+            this.cbEstadoCivil.Size = new System.Drawing.Size(150, 28);
+            this.cbEstadoCivil.TabIndex = 6;
+            this.cbEstadoCivil.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
-            // comboBox3
+            // campoEndereco
             // 
-            this.comboBox3.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.comboBox3.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox3.DropDownHeight = 230;
-            this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.comboBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.IntegralHeight = false;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.campoEndereco.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.campoEndereco.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.campoEndereco.DropDownHeight = 230;
+            this.campoEndereco.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.campoEndereco.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.campoEndereco.FormattingEnabled = true;
+            this.campoEndereco.IntegralHeight = false;
+            this.campoEndereco.Items.AddRange(new object[] {
             ""});
-            this.comboBox3.Location = new System.Drawing.Point(138, 289);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(476, 28);
-            this.comboBox3.TabIndex = 9;
+            this.campoEndereco.Location = new System.Drawing.Point(138, 289);
+            this.campoEndereco.Name = "campoEndereco";
+            this.campoEndereco.Size = new System.Drawing.Size(476, 28);
+            this.campoEndereco.TabIndex = 9;
             // 
-            // comboBox4
+            // campoBairro
             // 
-            this.comboBox4.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.comboBox4.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox4.DropDownHeight = 230;
-            this.comboBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.comboBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.IntegralHeight = false;
-            this.comboBox4.Items.AddRange(new object[] {
+            this.campoBairro.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.campoBairro.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.campoBairro.DropDownHeight = 230;
+            this.campoBairro.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.campoBairro.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.campoBairro.FormattingEnabled = true;
+            this.campoBairro.IntegralHeight = false;
+            this.campoBairro.Items.AddRange(new object[] {
             ""});
-            this.comboBox4.Location = new System.Drawing.Point(22, 357);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(373, 28);
-            this.comboBox4.TabIndex = 11;
+            this.campoBairro.Location = new System.Drawing.Point(22, 357);
+            this.campoBairro.Name = "campoBairro";
+            this.campoBairro.Size = new System.Drawing.Size(373, 28);
+            this.campoBairro.TabIndex = 11;
             // 
-            // comboBox5
+            // campoCidade
             // 
-            this.comboBox5.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.comboBox5.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox5.DropDownHeight = 230;
-            this.comboBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.comboBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.IntegralHeight = false;
-            this.comboBox5.Items.AddRange(new object[] {
+            this.campoCidade.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.campoCidade.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.campoCidade.DropDownHeight = 230;
+            this.campoCidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.campoCidade.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.campoCidade.FormattingEnabled = true;
+            this.campoCidade.IntegralHeight = false;
+            this.campoCidade.Items.AddRange(new object[] {
             ""});
-            this.comboBox5.Location = new System.Drawing.Point(412, 357);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(310, 28);
-            this.comboBox5.TabIndex = 12;
+            this.campoCidade.Location = new System.Drawing.Point(412, 357);
+            this.campoCidade.Name = "campoCidade";
+            this.campoCidade.Size = new System.Drawing.Size(310, 28);
+            this.campoCidade.TabIndex = 12;
             // 
             // pictureBox1
             // 
@@ -685,6 +686,7 @@
             this.button5.Text = "Salvar";
             this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // FrmCadCliente
             // 
@@ -700,25 +702,25 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox4);
-            this.Controls.Add(this.comboBox5);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.maskedTextBox2);
-            this.Controls.Add(this.maskedTextBox4);
-            this.Controls.Add(this.maskedTextBox3);
-            this.Controls.Add(this.maskedTextBox1);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.radioButton3);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.textBox14);
-            this.Controls.Add(this.textBox12);
-            this.Controls.Add(this.textBox13);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.cbEstadoCivil);
+            this.Controls.Add(this.campoBairro);
+            this.Controls.Add(this.campoCidade);
+            this.Controls.Add(this.campoEndereco);
+            this.Controls.Add(this.campoEstado);
+            this.Controls.Add(this.campoNasc);
+            this.Controls.Add(this.campoCelular);
+            this.Controls.Add(this.campoCEP);
+            this.Controls.Add(this.campoDocumento);
+            this.Controls.Add(this.ckSituacao);
+            this.Controls.Add(this.opOutros);
+            this.Controls.Add(this.opF);
+            this.Controls.Add(this.opM);
+            this.Controls.Add(this.campoNumero);
+            this.Controls.Add(this.campoEmail);
+            this.Controls.Add(this.campoObs);
+            this.Controls.Add(this.campoRG);
+            this.Controls.Add(this.campoNome);
+            this.Controls.Add(this.campoCodigo);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);
@@ -771,29 +773,29 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox3;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox4;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton5;
+        private System.Windows.Forms.TextBox campoCodigo;
+        private System.Windows.Forms.TextBox campoNome;
+        private System.Windows.Forms.TextBox campoRG;
+        private System.Windows.Forms.TextBox campoEmail;
+        private System.Windows.Forms.TextBox campoObs;
+        private System.Windows.Forms.TextBox campoNumero;
+        private System.Windows.Forms.RadioButton opM;
+        private System.Windows.Forms.RadioButton opF;
+        private System.Windows.Forms.RadioButton opOutros;
+        private System.Windows.Forms.CheckBox ckSituacao;
+        private System.Windows.Forms.MaskedTextBox campoDocumento;
+        private System.Windows.Forms.MaskedTextBox campoNasc;
+        private System.Windows.Forms.MaskedTextBox campoCEP;
+        private System.Windows.Forms.MaskedTextBox campoCelular;
+        private System.Windows.Forms.RadioButton opCPF;
+        private System.Windows.Forms.RadioButton opCNPJ;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.ComboBox comboBox5;
+        private System.Windows.Forms.ComboBox campoEstado;
+        private System.Windows.Forms.ComboBox cbEstadoCivil;
+        private System.Windows.Forms.ComboBox campoEndereco;
+        private System.Windows.Forms.ComboBox campoBairro;
+        private System.Windows.Forms.ComboBox campoCidade;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
